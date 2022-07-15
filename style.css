@@ -1,0 +1,178 @@
+  .main_content {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+  }
+
+  /* .intro2 {
+    height: 300px;
+    background-color: #eeeeee;/*CDAEFB #efeaf7*/
+    border-top: thin solid #0D18A8;
+    border-bottom: thin solid #0D18A8;
+  } */
+
+
+
+  .intro {
+    height: 300px;
+    background-color: white;/*CDAEFB #efeaf7*/
+  }
+
+  .navbar {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;/*#A3C9F5;*/
+  }
+
+  .logo {
+    font-family: 'Caveat', cursive;
+    color: black;
+  }
+
+  #header_nav {
+    margin-bottom: 10px;
+  }
+
+  #nameText {
+    font-family: 'Playfair Display', serif;
+    color: #1717B2;
+    margin-left: 60px;
+    font-size: 500%;
+    text-shadow: 1px 3px 5px rgba(16, 16, 16, 0.5);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #preNameText {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: 'Bree', serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #postNameText {
+    margin-left: 75px;
+    font-family: 'Bree', serif;
+    font-size: 150%;
+  }
+
+  .space_sections {
+    margin-top: 60px;
+  }
+
+  .about_me {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 150%;
+    text-align: justify;
+  }
+
+  .imagen{
+    height: 70%;
+    width: 70%;
+  }
+
+  .titles{
+    font-weight: bold;
+    color: #2C0063;
+  }
+
+  .pre_custom_card {
+    align-content: center; 
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .custom_card {
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    width: 150px;
+    height: 150px;
+    padding: 10%;
+    border-radius: 15px;
+    border-color: #0D18A8;
+    border-style: solid;
+    border-width: thin;
+    margin: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logos .card{
+    padding: 10%;
+    margin: 2%;
+    border-radius: 15px;
+    border-color: #0D18A8;
+    border-style: solid;
+    border-width: thin;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    align-items: center;
+    justify-content: center; 
+    aspect-ratio: 1/1;
+    font-size: 8vw;
+    max-height: 175px;
+  }
+
+  .custom_card i {
+    font-size: 600%;
+  }
+
+  .custom-button {
+    background-color: #efeaf7;/*CDAEFB*/
+  }
+
+  .custom_footer {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  .custom_button{
+    color: #0D18A8;
+    background-color: white;
+    border-radius: 15px;
+    border-color: #0D18A8;
+    border-style: solid;
+    border-width: thin;
+    width: 200px;
+    height: 40px;
+    font-family: 'Bree', serif;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    text-align: center;
+  }
+
+  .logos {
+    display: flex;
+    justify-content: center;
+  }
+
+  .card-github {
+    border-radius: 15px;
+    border-color: #0D18A8 !important;
+    border-style: solid;
+    border-width: thin;
+    margin: 20px;
+    padding-top: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+  }
+
+  .card-github .col {
+    padding-top: 8px;
+  }
+
+  #scroll-cards {
+    overflow: scroll;
+    height: 335px;
+  }
+
+  #scroll-cards a {
+    color: black;
+  }

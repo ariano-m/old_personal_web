@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="c0mputer64">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+
+    <link rel="stylesheet" href="./style.css" />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" 
+          crossorigin="anonymous">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@800&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" 
+          integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script type="text/javascript" src="./github.js"></script>
+    
+    <title>Adrián Riaño</title>
+  </head>
+ 
+  <body>
+    <div class="main_content">
+        <div class="intro h-75">
+          <h3 id="preNameText">
+            <b>&#128075; <span style="color: #02cea0;">¡Hola!</span> Mi nombre es</b>
+          </h3>
+          <h1 id="nameText">
+            Adrián Riaño
+          </h1>
+        </div>
+
+        <div class="container space_sections">
+          <div class="row">
+            <div class="col align-items-center align-self-center text-center about_me">
+              <img src="./foto.jpg" alt="foto" class="imagen">
+            </div>
+            <div class="col align-items-center align-self-center">
+              <h1 class="titles" style="text-align: center; ">#Sobre mí</h1>
+              <p class="about_me overflow-auto">
+                Soy desarrollador software junior graduado en ingeniería de computadores. Actualmente me encuentro desarrollando y mantenimiento
+                aplicaciones web basadas en Java. Tengo gran interés en cómo funcionan las tecnologías desde el inicio de su implementación. 
+                Por ello, trato de aprender algo nuevo y mejorar mis habilidades diariamente. Entre mis intereses a día de hoy, 
+                se encuentra la profundización de JS y la mejora de mi código.
+              </p>
+              <button onclick="window.open('https://drive.google.com/file/d/1jF5CkX1XtW_ER1ffYevzn-U6FIRoV18H/view?usp=sharing', '_blank');" 
+                type="button" class="custom_button" id="custom_button"
+                onmouseover="buttonOver(this)" onmouseout="buttonOut(this)">
+                <b>Currículum vitae</b>
+             </button>
+            </div>
+          </div>
+        </div>
+        
+        <div class="space_sections" style="text-align: center;">
+          <div class="container" style="padding-top: 70px;">
+            <div class="row">
+              <div class="col-lg pb-5">
+                <h1 class="titles">#Top Skills</h1>
+                  <div class="logos">
+                    <div class="card">
+                      <i class="fa-brands fa-java"></i>
+                    </div>
+                    <div class="card">
+                      <i class="fa-brands fa-python"></i>
+                    </div>
+                    <div class="card">
+                      <i class="fa-solid fa-c"></i>
+                    </div>
+                  </div>
+                  <div class="logos">
+                    <div class="card">
+                      <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="card">
+                      <i class="fa-brands fa-bootstrap"></i>
+                    </div>
+                    <div class="card">
+                      <i class="fa-brands fa-js"></i>
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg pt-auto" id="projects">
+                <h1 class="titles">#Proyectos</h1>
+                <div id="scroll-cards"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    <footer class="text-lg-start custom_footer">
+        <div style="align-content: center; text-align: center;">
+          <p>
+            <ul>
+              <li style="display:inline" id="envelope">
+                <a class="fa-solid fa-envelope" style="font-size:30px;" href="mailto:adrianrima98@gmail.com" target="_blank"></a>
+              </li>
+              <li style="display:inline" id="linkedin"> 
+                <a class="fab fa-linkedin" style="font-size:30px" href="https://www.linkedin.com/in/adrián-riaño-martínez-8b2427165?jobid=1234&lipi=urn%3Ali%3Apage%3Ad_jobs_easyapply_pdfgenresume%3BwLU6EfITREy7tw2W0ORnKQ%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_jobs_easyapply_pdfgenresume-v02_profile"
+                   target="_blank"></a>
+              </li>
+              <li style="display:inline" id="github">
+                <a class="fa-brands fa-github" style="font-size:30px" href="https://github.com/c0mputer64" target="_blank"></a>
+              </li>
+            </ul>
+          </p>
+          <p>Creado por <a href="https://github.com/c0mputer64">c0mputer64</a></p>
+        </div>
+    </footer>
+  </body>
+
+  <script>
+    function changeColor(id, color) {
+    id.addEventListener("mouseover", function (event) {
+      event.target.style.color = color;
+    
+      setTimeout(function() {
+        event.target.style.color = "";
+      }, 500);
+    }
+    );
+  }
+
+  function buttonOver(button) {
+      button.style.backgroundColor = "#efeaf7";
+  } 
+  
+  function buttonOut(button) {
+      button.style.backgroundColor = "white";
+  }
+
+  const color = "#0D18A8";
+
+  ["envelope", "linkedin", "github"].forEach(element => {
+    changeColor(document.getElementById(element), 
+    color)});
+
+  const customCards = document.getElementsByClassName("card");
+
+  Array.from(customCards).forEach(element => {
+    
+    element.addEventListener("mouseover", function() {
+      element.style.backgroundColor = "#efeaf7";
+     });
+
+    element.addEventListener("mouseout", function() {
+      element.style.backgroundColor = "white";
+    });
+  
+  });
+  </script>
+</html>
